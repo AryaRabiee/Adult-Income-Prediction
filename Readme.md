@@ -1,6 +1,6 @@
 # 🏆 Adult Income Prediction (Census Income Dataset)
 
-This project uses the Adult Dataset (from the UCI Machine Learning Repository) to predict whether a person earns more than $50K per year based on demographic and work-related attributes.
+This project uses the **Adult Dataset** to predict whether a person earns **more than $50K per year** based on demographic and work-related attributes.
 
 ## 📂 Dataset
 
@@ -49,12 +49,6 @@ All government jobs → "Government"
 "Own-child" & "Not-in-family" → "Single"
 
 Dropped irrelevant columns (fnlwgt, native_country, education)
-
-Created new features:
-
-age_group using pd.cut() (bins: 0–25, 26–35, …)
-
-capital_net = capital_gain - capital_loss
 
 Converted sex to numeric (Male=1, Female=0)
 
